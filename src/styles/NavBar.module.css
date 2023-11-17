@@ -1,15 +1,8 @@
 /* NavBar.module.css */
 .navbar {
-  height: 30vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+
 }
 
-.navbarBrand {
-  border-radius: 15%;
-}
 
 .navbarBrandImg {
   border-radius: 15%;
@@ -19,14 +12,34 @@
 .navbarLinkContainer {
   display: flex;
   align-items: center;
+  margin-left: auto; 
 }
 
-.NavLink { /* Update this class name */
+.navbarLink {
   color: #fff;
   font-weight: bold;
-  margin-right: 15px;
+
 }
 
-.NavLink:hover { /* Update this class name */
-  color: #2f2e2c;
+.navbarLink:hover {
+  color: #9a978e;
+}
+
+.carousel {
+  height: 10vh; /* Set the height of the Carousel explicitly */
+
+}
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: 0 auto; /* Center the image horizontally within the Carousel item */
+  object-fit: cover;
 }
