@@ -1,0 +1,32 @@
+/* NavBar.module.css */
+.navbar {
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbarBrand {
+  border-radius: 15%;
+}
+
+.navbarBrandImg {
+  border-radius: 15%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbarLinkContainer {
+  display: flex;
+  align-items: center;
+}
+
+.NavLink { /* Update this class name */
+  color: #fff;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.NavLink:hover { /* Update this class name */
+  color: #2f2e2c;
+}
